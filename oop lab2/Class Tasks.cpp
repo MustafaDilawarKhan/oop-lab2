@@ -47,10 +47,13 @@ int main() {
     elephant E;
     monkey M;
     bird B;
-
+    cout << "lion's sound :\n";
     hearSound(L);
+    cout << endl << "elephant's sound :\n";
     hearSound(E);
+    cout << endl << "monkey's sound :\n";
     hearSound(M);
+    cout << endl << "bird's sound :\n";
     hearSound(B);
 
     return 0;

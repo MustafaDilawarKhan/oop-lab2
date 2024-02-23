@@ -5,7 +5,7 @@ using namespace std;
 class ANIMAL {
 public:
     
-    virtual void makeSound();
+    virtual void makeSound()=0;
 };
 
 
